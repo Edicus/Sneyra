@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --ignore node_modules/ index.js",
+    "start": "node index.js"
   },
   "author": "kyraNET",
   "license": "MIT",
@@ -16,7 +18,4 @@
     "node-opus": "^0.2.7",
     "ytdl-core": "^0.20.1"
   }
-  "scripts": {
-  "dev": "nodemon --ignore node_modules/ index.js",
-  "start": "node index.js"
 }
